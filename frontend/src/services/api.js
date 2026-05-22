@@ -1,4 +1,4 @@
-const API_URL = 'http://127.0.0.1:8000/analyze'
+const API_URL = `${import.meta.env.VITE_API_URL}/analyze`
 
 export async function analyzeText(text) {
   const response = await fetch(API_URL, {
