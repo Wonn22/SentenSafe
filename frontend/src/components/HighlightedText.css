@@ -1,0 +1,30 @@
+.highlighted-text {
+  margin-top: var(--space-md);
+  color: var(--color-ink);
+  line-height: 2.15;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  overflow-x: hidden;
+}
+
+.highlight-token {
+  display: inline;
+  margin-right: var(--space-2xs);
+  padding: 2px 5px;
+  border-radius: var(--radius-sm);
+}
+
+.token-ai {
+  background: var(--color-ai-soft);
+  color: var(--color-ai);
+}
+
+.token-human {
+  background: var(--color-human-soft);
+  color: var(--color-human);
+}
+
+.token-neutral {
+  color: var(--color-ink);
+}

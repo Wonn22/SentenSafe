@@ -1,0 +1,58 @@
+.empty-state,
+.loading-state,
+.error-state {
+  border: var(--rule-sm) solid var(--color-rule);
+  border-radius: var(--radius-md);
+  background: var(--color-surface);
+  padding: var(--space-xl);
+}
+
+.empty-state {
+  display: grid;
+  place-items: center;
+  gap: var(--space-md);
+  text-align: center;
+}
+
+.empty-state h3 {
+  margin: 0;
+  color: var(--color-ink);
+  font-family: var(--font-display);
+  font-size: var(--text-xl);
+}
+
+.empty-state p {
+  max-width: 44ch;
+  margin: 0;
+  color: var(--color-ink-soft);
+  line-height: 1.58;
+}
+
+.loading-state {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-sm);
+  color: var(--color-ink-soft);
+}
+
+.loading-mark {
+  width: 14px;
+  height: 14px;
+  border: 2px solid var(--color-rule);
+  border-top-color: var(--color-accent);
+  border-radius: 999px;
+  animation: spin 700ms linear infinite;
+}
+
+.error-state {
+  margin-top: var(--space-md);
+  color: var(--color-ai);
+  background: var(--color-ai-soft);
+  border-color: var(--color-ai);
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

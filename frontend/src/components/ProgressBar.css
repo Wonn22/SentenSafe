@@ -1,0 +1,29 @@
+.progress-wrap {
+  width: 100%;
+}
+
+.progress-track {
+  height: 12px;
+  overflow: hidden;
+  border: var(--rule-sm) solid var(--color-rule);
+  border-radius: 999px;
+  background: var(--color-surface-soft);
+}
+
+.progress-fill {
+  height: 100%;
+  border-radius: inherit;
+  transition: width var(--dur-med) var(--ease-out);
+}
+
+.progress-accent {
+  background: var(--color-accent);
+}
+
+.progress-ai {
+  background: var(--color-ai);
+}
+
+.progress-human {
+  background: var(--color-human);
+}

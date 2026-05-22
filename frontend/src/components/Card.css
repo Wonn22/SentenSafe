@@ -1,0 +1,29 @@
+.card {
+  border: var(--rule-sm) solid var(--color-rule);
+  border-radius: var(--radius-md);
+  background: var(--color-surface);
+  box-shadow: 0 18px 44px var(--color-shadow);
+  padding: var(--space-lg);
+}
+
+.card h2 {
+  margin: 0;
+  color: var(--color-ink);
+  font-family: var(--font-display);
+  font-size: var(--text-xl);
+  line-height: 1.12;
+  letter-spacing: 0;
+  overflow-wrap: anywhere;
+}
+
+.card h3 {
+  margin: 0 0 var(--space-xs);
+  color: var(--color-ink);
+  font-size: var(--text-md);
+  line-height: 1.25;
+}
+
+.card p {
+  color: var(--color-ink-soft);
+  line-height: 1.58;
+}

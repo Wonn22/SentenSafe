@@ -1,0 +1,48 @@
+.navbar {
+  min-height: 82px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-lg);
+  padding: var(--space-lg) clamp(var(--space-md), 4vw, var(--space-xl));
+  border-bottom: var(--rule-sm) solid var(--color-rule);
+  background: oklch(100% 0 0 / 82%);
+  backdrop-filter: blur(12px);
+}
+
+.navbar h1 {
+  margin: 0;
+  color: var(--color-ink);
+  font-family: var(--font-display);
+  font-size: var(--text-xl);
+  line-height: 1.05;
+  letter-spacing: 0;
+  overflow-wrap: anywhere;
+}
+
+.eyebrow {
+  display: block;
+  margin-bottom: var(--space-2xs);
+  color: var(--color-ink-faint);
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  text-transform: uppercase;
+}
+
+.nav-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+}
+
+@media (max-width: 640px) {
+  .navbar {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .nav-actions,
+  .nav-actions .btn {
+    width: 100%;
+  }
+}

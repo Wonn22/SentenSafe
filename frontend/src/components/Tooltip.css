@@ -1,0 +1,30 @@
+.tooltip {
+  position: relative;
+}
+
+.tooltip-panel {
+  position: absolute;
+  z-index: 10;
+  left: 0;
+  bottom: calc(100% + var(--space-xs));
+  min-width: 180px;
+  padding: var(--space-xs) var(--space-sm);
+  border: var(--rule-sm) solid var(--color-rule);
+  border-radius: var(--radius-sm);
+  background: var(--color-surface-strong);
+  color: var(--color-surface);
+  font-size: var(--text-xs);
+  line-height: 1.35;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(4px);
+  transition:
+    opacity var(--dur-fast) var(--ease-out),
+    transform var(--dur-fast) var(--ease-out);
+}
+
+.tooltip:hover .tooltip-panel,
+.tooltip:focus-within .tooltip-panel {
+  opacity: 1;
+  transform: translateY(0);
+}

@@ -1,0 +1,56 @@
+/* Hallmark - pre-emit critique: P4 H4 E4 S4 R5 V4 */
+/* Hallmark - macrostructure: Analytical Workspace - tone: research dashboard - anchor hue: blue-green */
+:root {
+  --color-page: oklch(96% 0.012 235);
+  --color-page-2: oklch(92% 0.015 235);
+  --color-paper: oklch(96% 0.012 235);
+  --color-surface: oklch(100% 0 0);
+  --color-surface-soft: oklch(98% 0.006 235);
+  --color-surface-strong: oklch(24% 0.025 235);
+  --color-ink: oklch(21% 0.027 235);
+  --color-ink-soft: oklch(45% 0.022 235);
+  --color-ink-faint: oklch(60% 0.018 235);
+  --color-rule: oklch(88% 0.014 235);
+  --color-rule-strong: oklch(78% 0.018 235);
+  --color-accent: oklch(48% 0.105 205);
+  --color-accent-strong: oklch(35% 0.09 205);
+  --color-accent-soft: oklch(93% 0.035 205);
+  --color-ai: oklch(55% 0.155 34);
+  --color-ai-soft: oklch(94% 0.044 34);
+  --color-human: oklch(52% 0.13 152);
+  --color-human-soft: oklch(94% 0.044 152);
+  --color-warn: oklch(66% 0.135 78);
+  --color-warn-soft: oklch(95% 0.05 78);
+  --color-focus: oklch(50% 0.14 250);
+  --color-shadow: oklch(20% 0.026 235 / 12%);
+
+  --font-display: Georgia, "Times New Roman", serif;
+  --font-body: Inter, ui-sans-serif, system-ui, "Segoe UI", Arial, sans-serif;
+  --font-mono: "Cascadia Mono", Consolas, "Liberation Mono", monospace;
+
+  --space-2xs: 4px;
+  --space-xs: 8px;
+  --space-sm: 12px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-2xl: 48px;
+
+  --text-xs: 12px;
+  --text-sm: 14px;
+  --text-base: 16px;
+  --text-md: 18px;
+  --text-lg: 22px;
+  --text-xl: 30px;
+  --text-display: 52px;
+
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --rule-sm: 1px;
+
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in: cubic-bezier(0.7, 0, 0.84, 0);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-fast: 120ms;
+  --dur-med: 180ms;
+}

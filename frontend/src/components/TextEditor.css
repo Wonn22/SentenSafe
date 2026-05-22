@@ -1,0 +1,20 @@
+.text-editor {
+  width: 100%;
+  min-height: 360px;
+  resize: vertical;
+  border: var(--rule-sm) solid var(--color-rule);
+  border-radius: var(--radius-md);
+  background: var(--color-surface-soft);
+  color: var(--color-ink);
+  padding: var(--space-md);
+  line-height: 1.65;
+}
+
+.text-editor::placeholder {
+  color: var(--color-ink-faint);
+}
+
+.text-editor:focus-visible {
+  outline: 3px solid var(--color-focus);
+  outline-offset: 2px;
+}
